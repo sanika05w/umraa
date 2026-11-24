@@ -1,6 +1,7 @@
 class PriorityQueue:
     def _init_(self):
         self.queue = []
+        
 
     # Add Process
     def enqueue(self, pid, name, priority):
