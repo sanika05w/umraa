@@ -69,6 +69,7 @@ class PriorityQueue:
   def count(self):
     temp = self.front
     total = 0
+    
     while temp:
       total += 1
       temp = temp.next

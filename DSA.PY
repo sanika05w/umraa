@@ -62,6 +62,7 @@ class PriorityQueue:
 
 pq = PriorityQueue()
 
+
 pq.enqueue(101, "Chrome", 3)
 pq.enqueue(102, "System", 1)
 pq.enqueue(103, "Editor", 2)
